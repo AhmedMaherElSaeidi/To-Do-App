@@ -1,70 +1,36 @@
-# Getting Started with Create React App
+# To-Do App in React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple To-Do App built using React, allowing users to create and manage tasks.
 
-## Available Scripts
+## Components
 
-In the project directory, you can run:
+The following components have been used in this app:
 
-### `npm start`
+- `Home`: Top-level component that holds all the other components and manages the state of the application.
+- `NavBar`: Component that displays a simple nav bar.
+- `Footer`: Component that displays the app footer.
+- `TaskList`: Component that displays the list of tasks and allows the user to mark them as completed.
+- `TaskForm`: Component where you can add a task.
+- `FavouriteTask`: Component that represents a single task that was marked as favorite.
+- `FavouriteTasks`: Component that displays the list of favorite tasks the user marked them.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## State Management
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The app's state is managed using the `useState` and `useEffect` hooks, which allows us to create and update state variables.
 
-### `npm test`
+The data is loaded and retrieved to/from `localStorage` of browser by a `module` that facilitates `CRUD` operations.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+When a new task is added, a new object is created with a `unique ID`, the `activity name`, the `description`, and the `dead line` entered by the user, and a `isFinished` and `isFav` property set to `false`. This object is then added to the `localStorage` using the `localStorage.js` module functions.
 
-### `npm run build`
+## Styling
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Styling is done using CSS modules, which allow us to define styles for each component in a separate file and then import them into the component. This makes it easy to manage styles and avoid naming conflicts.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Author
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Name:** Ahmed Maher
+- **Project:** ITI final project for react web development
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Project Overview
+![alt text](Project_overview)
+![My Image](./public/Screenshot%202023-05-12%20040731.png)
