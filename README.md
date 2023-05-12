@@ -32,5 +32,4 @@ Styling is done using CSS modules, which allow us to define styles for each comp
 - **Project:** ITI final project for react web development
 
 ## Project Overview
-![alt text](Project_overview)
 ![My Image](./public/Screenshot%202023-05-12%20040731.png)
