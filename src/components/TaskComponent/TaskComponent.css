@@ -1,0 +1,24 @@
+.task-component-div {
+    margin: 0.25em;
+    padding: 0.25em;
+    border-radius: 0.5em;
+    background-color: #fefce7;
+}
+
+.task-component-div>.card-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.task-component-div .task-component-btns {
+    align-self: center;
+}
+
+.task-component-div .task-component-btns button:first-child {
+    font-size: 1.4em;
+}
+
+.task-component-div .task-component-btns button:hover {
+    opacity: 80%;
+    box-shadow: 1px 1px 3px goldenrod;
+}

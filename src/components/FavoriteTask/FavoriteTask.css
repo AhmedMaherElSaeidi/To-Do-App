@@ -1,0 +1,27 @@
+.task-card {
+    border: none;
+    position: relative;
+    background-color: #f9f1e8;
+    box-shadow: 1px 1px 3px #ffffff8f;
+}
+
+.task-card>.react-icon {
+    position: absolute;
+    color: orangered;
+    top: .25em;
+    right: .45em;
+    font-size: 1.5em;
+}
+
+.task-card>.react-icon:hover {
+    cursor: pointer;
+    color: #f1845c;
+}
+
+.task-card>.react-icon:hover::after {
+    content: "X";
+    position: absolute;
+    top: .1em;
+    right: .2em;
+    color: black;
+}

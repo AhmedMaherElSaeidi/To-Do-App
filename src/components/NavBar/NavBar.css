@@ -1,0 +1,14 @@
+nav > section {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #dfdfdf;
+}
+
+nav svg {
+    font-size: 2em;
+    margin: 0.5em;
+    -webkit-animation: spin infinite 5s linear;
+    animation: spin infinite 5s linear;
+}

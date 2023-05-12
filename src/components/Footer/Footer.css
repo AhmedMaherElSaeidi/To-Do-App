@@ -1,0 +1,31 @@
+footer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer>section:first-child {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer>section:first-child>svg {
+    color: blue;
+    font-size: 4em;
+    margin: 0.5em;
+    -webkit-animation: spin infinite 5s linear;
+    animation: spin infinite 5s linear;
+}
+
+footer>section:nth-child(2) {
+    flex: 4;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+footer>section:nth-child(2)>p {
+    font-weight: bold;
+}
