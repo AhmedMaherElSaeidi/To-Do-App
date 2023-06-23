@@ -1,7 +1,13 @@
+body{
+    background-image: linear-gradient(#a8d6e5, #a8c0c7);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
 .todo-container {
     display: flex;
-    flex-direction: column;
-    background-image: linear-gradient(#076585, #fff);
+    flex-direction: column;    
 }
 
 .todo-container>section {
@@ -24,8 +30,8 @@
     padding: 0.5em;
     border-radius: 0.5em;
     margin-bottom: .9em;
-    background-color: #dfdfdf;
-    box-shadow: 1px 1px 7px #a3a3a3;
+    background-color: #ffffffaa;
+    box-shadow: 1px 1px 7px #979696a2;
 }
 
 .gray-container:hover {
