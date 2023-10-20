@@ -33,3 +33,8 @@ Styling is done using CSS modules, which allow us to define styles for each comp
 
 ## Project Overview
 ![My Image](./public/Screenshot%202023-05-12%20040731.png)
+
+## Other ITI ReactJs Internship related Tasks
+
+- Simulatingthe interface of google meet using ReactJS: [Google-Meet-Interface](https://github.com/AhmedMaherElSaeidi/Google-Meet-Interface)
+- Simple chess board using html, css, and js: [Chess-Board](https://github.com/AhmedMaherElSaeidi/Chess-Board)
